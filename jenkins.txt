@@ -1,0 +1,109 @@
+Q)Difference between Agile and Waterfall model?
+
+Agile 					WaterFall Model
+----------				----------------
+It processes non-linear,incremental and	It processes linear and sequential approach 
+interactive approach for a software 	for a software design.
+design.
+
+At each incremental approach project 	At the end whole project is tested.
+is tested.
+
+A customer has early and frequent 	A customer only can see that product at the 
+opportunities to look at the product	end of the project.
+and make decisions or changes to the 
+project.
+
+It is unstructured because it is not	It is structured because it is plan oriented.
+plan oriented.
+
+Small projects can be implemented 	All sort of projects can be estimated and	
+quickly.But large projects can't be	implemented. 
+estimated and implemented due to 
+frequent changes.
+
+
+
+Jenkins 
+=============
+Jenkins is an open-source continuous integration software tool written in the Java programming language for testing and reporting on isolated changes in a larger code base in real time. The software enables developers to find and solve defects in a code base rapidly and to automate testing of their builds.
+
+
+step1:
+-------
+	Download and Install JDK 11 for Jenkins.
+	ex:
+		https://www.codejava.net/java-se/download-and-install-java-11-openjdk-and-oracle-jdk
+
+	
+
+step2:
+--------
+	Download the Jenkins.
+	ex:
+		https://www.jenkins.io/download/
+
+step3:
+-------
+	Install the jenkins for windows OS.
+	ex:
+		Double click to Jenkins softwawre --> next --> next --> select on
+		"Run service as LocalSystem" --> next --> port no: 8181--> 
+		click on "Test port" --> next--> 
+		Select java JDK location (C:\Program Files\Java\jdk-11\) --> Next
+		---> Next --> Install --> Yes (popup) --> Finish. 
+	
+	
+step4:
+-----
+	Now types below request url in browser address bar to start the jenkins.
+	ex:
+		http://localhost:8181
+
+step5:
+-----
+	Now copy and paste below directory in c drive and click on open with notepad.
+	
+	ex:
+		C:\ProgramData\Jenkins\.jenkins\secrets\initialAdminPassword
+
+
+		password : 753802253a2648a6af59d2cb089c3de5 --> continue -->
+		select install suggested plugin --> click on continue -->
+
+		username : jenkins
+		password : jenkins143786
+		confirm password : jenkins143786
+		fullname : jenkins
+		email : niyazulhasan61@gmail.com ---> save and continue -->
+		starts using jenkins.
+
+
+step6:
+-----
+	Click to create a job in jenkins.
+	
+	Enter the item name : IH-JAVA-015  ---> select free style project -->
+	->ok  --> description:  simple jenkins demostration  --> Build steps -->
+	Execution windows batch command : java -version
+                                          dir 
+	--> save .
+
+
+
+step7:
+------
+	Build the job.
+	ex:	
+		click on build now.
+
+
+
+	
+
+
+
+
+
+
+	 
